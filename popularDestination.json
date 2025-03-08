@@ -1,0 +1,102 @@
+
+
+ [
+      {"id":"1",
+        "name": "Cox’s Bazar",
+        "description": "Cox’s Bazar is a stunning coastal city with miles of sandy beach. Enjoy the best of beach activities, like parasailing, jet skiing, and beach relaxation.",
+        "imageUrl": "https://www.example.com/images/saint-martins-island.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 1,500"},
+          "fromChittagong": {"bus": "BDT 500"},
+          "withinDestinations": [{"transport": "Tuk-Tuk", "price": "BDT 100"}]
+        },
+        "price": "BDT 15,000",
+        "accommodation": [
+          {"hotel": "Sayeman Beach Resort", "nights": 2, "pricePerNight": "BDT 10,000", "rating": 4.7},
+          {"hotel": "Long Beach Hotel", "nights": 1, "pricePerNight": "BDT 7,500", "rating": 4.5}
+        ],
+        "meals": {
+          "day1": {"lunch": "Seafood", "dinner": "Hotel buffet"},
+          "day2": {"lunch": "Beach stall", "dinner": "Fine dining"},
+          "day3": {"lunch": "Local restaurant"}
+        },
+        "activities": {
+          "day1": ["Beach relaxation"],
+          "day2": ["Parasailing", "Jet skiing"],
+          "day3": ["Shopping", "Departure"]
+        }
+      },
+      {"id":"2",
+        "name": "Sundarbans",
+        "description": "Explore the Sundarbans, the world's largest mangrove forest, famous for its biodiversity, including the Royal Bengal Tiger. Enjoy a wildlife safari and boat tours.",
+        "imageUrl": "https://www.example.com/images/sundarbans.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 800"},
+          "fromKhulna": {"boat": "BDT 2,000"},
+          "withinDestinations": [{"transport": "Boat", "price": "BDT 500"}]
+        },
+        "price": "BDT 12,000",
+        "accommodation": [
+          {"hotel": "Tiger Garden Hotel", "nights": 1, "pricePerNight": "BDT 5,000", "rating": 4.2},
+          {"hotel": "Castle Salam", "nights": 1, "pricePerNight": "BDT 4,500", "rating": 4.0}
+        ],
+        "meals": {
+          "day1": {"lunch": "Packed lunch", "dinner": "Hotel buffet"},
+          "day2": {"lunch": "Local restaurant"}
+        },
+        "activities": {
+          "day1": ["Safari", "Wildlife"],
+          "day2": ["Bird watching", "Departure"]
+        }
+      },
+      {"id":"3",
+        "name": "Saint Martin’s Island",
+        "description": "Saint Martin’s Island is a paradise for beach lovers. Snorkeling, scuba diving, and exploring the island’s beautiful beaches are top activities.",
+        "imageUrl": "https://www.example.com/images/saint-martins-island.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 1,800"},
+          "fromCox’sBazar": {"ferry": "BDT 1,000"},
+          "withinDestinations": [{"transport": "Boat", "price": "BDT 500"}]
+        },
+        "price": "BDT 10,000",
+        "accommodation": [
+          {"hotel": "Blue Marine Resort", "nights": 1, "pricePerNight": "BDT 6,000", "rating": 4.5},
+          {"hotel": "Coral View Resort", "nights": 1, "pricePerNight": "BDT 4,500", "rating": 4.2}
+        ],
+        "meals": {
+          "day1": {"lunch": "Beachside", "dinner": "Seafood restaurant"},
+          "day2": {"lunch": "Local restaurant"}
+        },
+        "activities": {
+          "day1": ["Snorkeling", "Beach relaxation"],
+          "day2": ["Local exploration"]
+        }
+      },
+      {"id":"4",
+        "name": "Sajek Valley",
+        "description": "Sajek Valley offers a scenic getaway with beautiful hills, trekking paths, and tribal villages. Perfect for nature lovers and adventure seekers.",
+        "imageUrl": "https://www.example.com/images/sajek-valley.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 1,800"},
+          "fromChittagong": {"bus": "BDT 1,000"},
+          "withinDestinations": [{"transport": "Jeep", "price": "BDT 2,000"}]
+        },
+        "price": "BDT 14,000",
+        "accommodation": [
+          {"hotel": "Sajek Resort", "nights": 2, "pricePerNight": "BDT 5,500", "rating": 4.6},
+          {"hotel": "Runmoy Resort", "nights": 1, "pricePerNight": "BDT 4,000", "rating": 4.3}
+        ],
+        "meals": {
+          "day1": {"lunch": "Local", "dinner": "Resort"},
+          "day2": {"lunch": "Picnic", "dinner": "Resort"},
+          "day3": {"lunch": "Local restaurant"}
+        },
+        "activities": {
+          "day1": ["Sightseeing"],
+          "day2": ["Trekking"],
+          "day3": ["Village tour"]
+        }
+      }
+    ]
+  
+  
