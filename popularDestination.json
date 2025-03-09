@@ -1,102 +1,512 @@
 
 
- [
-      {"id":"1",
-        "name": "Cox’s Bazar",
-        "description": "Cox’s Bazar is a stunning coastal city with miles of sandy beach. Enjoy the best of beach activities, like parasailing, jet skiing, and beach relaxation.",
-        "imageUrl": "https://www.example.com/images/saint-martins-island.jpg",
-        "transport": {
-          "fromDhaka": {"bus": "BDT 1,500"},
-          "fromChittagong": {"bus": "BDT 500"},
-          "withinDestinations": [{"transport": "Tuk-Tuk", "price": "BDT 100"}]
-        },
-        "price": "BDT 15,000",
-        "accommodation": [
-          {"hotel": "Sayeman Beach Resort", "nights": 2, "pricePerNight": "BDT 10,000", "rating": 4.7},
-          {"hotel": "Long Beach Hotel", "nights": 1, "pricePerNight": "BDT 7,500", "rating": 4.5}
-        ],
-        "meals": {
-          "day1": {"lunch": "Seafood", "dinner": "Hotel buffet"},
-          "day2": {"lunch": "Beach stall", "dinner": "Fine dining"},
-          "day3": {"lunch": "Local restaurant"}
-        },
-        "activities": {
-          "day1": ["Beach relaxation"],
-          "day2": ["Parasailing", "Jet skiing"],
-          "day3": ["Shopping", "Departure"]
-        }
+[
+  {
+    "id": "1",
+    "name": "Cox’s Bazar",
+    "description": "Cox’s Bazar is a stunning coastal city with miles of sandy beach. Enjoy the best of beach activities, like parasailing, jet skiing, and beach relaxation.",
+    "imageUrl": "https://www.example.com/images/saint-martins-island.jpg",
+    "transport": {
+      "fromDhaka": {"bus": "BDT 1,500"},
+      "fromChittagong": {"bus": "BDT 500"},
+      "withinDestinations": [{"transport": "Tuk-Tuk", "price": "BDT 100"}]
+    },
+    "price": "BDT 15,000",
+    "accommodation": [
+      {"hotel": "Sayeman Beach Resort", "nights": 2, "pricePerNight": "BDT 10,000", "rating": 4.7},
+      {"hotel": "Long Beach Hotel", "nights": 1, "pricePerNight": "BDT 7,500", "rating": 4.5}
+    ],
+    "meals": {
+      "day1": {"lunch": "Seafood", "dinner": "Hotel buffet"},
+      "day2": {"lunch": "Beach stall", "dinner": "Fine dining"},
+      "day3": {"lunch": "Local restaurant"}
+    },
+    "activities": {
+      "day1": ["Beach relaxation"],
+      "day2": ["Parasailing", "Jet skiing"],
+      "day3": ["Shopping", "Departure"]
+    }
+  },
+  {
+    "id": "2",
+    "name": "Saint Martin’s Island",
+    "description": "Saint Martin’s Island is a peaceful and serene tropical paradise located in the Bay of Bengal. Enjoy a laid-back atmosphere and discover beautiful coral reefs.",
+    "imageUrl": "https://www.example.com/images/saint-martins-island.jpg",
+    "transport": {
+      "fromDhaka": {"bus": "BDT 2,000", "flight": "BDT 6,000"},
+      "fromChittagong": {"bus": "BDT 800", "boat": "BDT 1,000"},
+      "withinDestinations": [{"transport": "Bicycle", "price": "BDT 200"}]
+    },
+    "price": "BDT 20,000",
+    "accommodation": [
+      {"hotel": "Saint Martin’s Beach Resort", "nights": 3, "pricePerNight": "BDT 12,000", "rating": 4.8},
+      {"hotel": "Blue Ocean Resort", "nights": 2, "pricePerNight": "BDT 8,500", "rating": 4.6}
+    ],
+    "meals": {
+      "day1": {"lunch": "Local seafood", "dinner": "Beachside barbecue"},
+      "day2": {"lunch": "Restaurant on the beach", "dinner": "Buffet"},
+      "day3": {"lunch": "Local village cuisine"}
+    },
+    "activities": {
+      "day1": ["Snorkeling", "Beach relaxation"],
+      "day2": ["Diving", "Coral reef tour"],
+      "day3": ["Relaxing on the beach", "Departure"]
+    }
+  },
+  {
+    "id": "3",
+    "name": "Sundarbans",
+    "description": "The Sundarbans is the largest mangrove forest in the world, home to the famous Bengal tigers. Explore dense forests, rivers, and wildlife.",
+    "imageUrl": "https://www.example.com/images/sundarbans.jpg",
+    "transport": {
+      "fromDhaka": {"bus": "BDT 2,500", "train": "BDT 700"},
+      "fromKhulna": {"boat": "BDT 1,000"},
+      "withinDestinations": [{"transport": "Boat", "price": "BDT 500"}]
+    },
+    "price": "BDT 25,000",
+    "accommodation": [
+      {"hotel": "Sundarbans Forest Resort", "nights": 3, "pricePerNight": "BDT 12,500", "rating": 4.9},
+      {"hotel": "Mangrove Lodge", "nights": 2, "pricePerNight": "BDT 9,000", "rating": 4.7}
+    ],
+    "meals": {
+      "day1": {"lunch": "Local cuisine", "dinner": "Forest camp meal"},
+      "day2": {"lunch": "Onboard boat lunch", "dinner": "Barbecue"},
+      "day3": {"lunch": "Local village dishes"}
+    },
+    "activities": {
+      "day1": ["Wildlife spotting", "Boat safari"],
+      "day2": ["Trekking", "Bengal tiger spotting"],
+      "day3": ["Forest tour", "Departure"]
+    }
+  },
+
+
+  {
+    "id": "11",
+    "name": "Skardu",
+    "description": "Skardu is a beautiful valley surrounded by towering mountains and lakes, offering breathtaking views and adventure activities.",
+    "imageUrl": "https://www.example.com/images/skardu.jpg",
+    "transport": {
+      "fromIslamabad": {"bus": "PKR 3,000", "flight": "PKR 12,000"},
+      "fromGilgit": {"bus": "PKR 2,500"},
+      "withinDestinations": [{"transport": "Jeep", "price": "PKR 500"}]
+    },
+    "price": "PKR 35,000",
+    "accommodation": [
+      {"hotel": "Shangrila Resort", "nights": 3, "pricePerNight": "PKR 15,000", "rating": 4.7},
+      {"hotel": "Skardu View Hotel", "nights": 2, "pricePerNight": "PKR 10,000", "rating": 4.6}
+    ],
+    "meals": {
+      "day1": {"lunch": "Local cuisine", "dinner": "Resort buffet"},
+      "day2": {"lunch": "Mountain food", "dinner": "BBQ dinner"},
+      "day3": {"lunch": "Traditional local dishes"}
+    },
+    "activities": {
+      "day1": ["Sightseeing", "Hiking"],
+      "day2": ["Visit Shangrila Resort", "Trekking"],
+      "day3": ["Lake tour", "Departure"]
+    }
+  },
+  {
+    "id": "12",
+    "name": "Murree",
+    "description": "Murree is a hill station with scenic views, pine forests, and a cool climate. Ideal for a peaceful getaway.",
+    "imageUrl": "https://www.example.com/images/murree.jpg",
+    "transport": {
+      "fromIslamabad": {"bus": "PKR 500", "taxi": "PKR 2,000"},
+      "withinDestinations": [{"transport": "Rickshaw", "price": "PKR 100"}]
+    },
+    "price": "PKR 12,000",
+    "accommodation": [
+      {"hotel": "Pearl Continental Murree", "nights": 2, "pricePerNight": "PKR 8,000", "rating": 4.8},
+      {"hotel": "Murree Hills Hotel", "nights": 1, "pricePerNight": "PKR 5,000", "rating": 4.5}
+    ],
+    "meals": {
+      "day1": {"lunch": "Traditional food", "dinner": "Buffet"},
+      "day2": {"lunch": "Mountain snack", "dinner": "BBQ"}
+    },
+    "activities": {
+      "day1": ["Cable car ride", "Nature walk"],
+      "day2": ["Hiking", "Local sightseeing"]
+    }
+  },
+
+  
+  {
+    "id": "21",
+    "name": "Agra",
+    "description": "Agra is home to the magnificent Taj Mahal, one of the seven wonders of the world. Explore historical landmarks and cultural heritage.",
+    "imageUrl": "https://www.example.com/images/agra.jpg",
+    "transport": {
+      "fromDelhi": {"train": "INR 500", "bus": "INR 1,200"},
+      "withinDestinations": [{"transport": "Auto-rickshaw", "price": "INR 100"}]
+    },
+    "price": "INR 15,000",
+    "accommodation": [
+      {"hotel": "ITC Mughal", "nights": 2, "pricePerNight": "INR 8,000", "rating": 4.7},
+      {"hotel": "Taj View Hotel", "nights": 1, "pricePerNight": "INR 5,000", "rating": 4.5}
+    ],
+    "meals": {
+      "day1": {"lunch": "Local cuisine", "dinner": "Buffet"},
+      "day2": {"lunch": "Traditional Indian food"}
+    },
+    "activities": {
+      "day1": ["Visit Taj Mahal", "Explore Agra Fort"],
+      "day2": ["Shopping", "Departure"]
+    }
+  },
+  {
+    "id": "22",
+    "name": "Goa",
+    "description": "Goa is famous for its beautiful beaches, vibrant nightlife, and Portuguese-influenced architecture. Perfect for beach lovers.",
+    "imageUrl": "https://www.example.com/images/goa.jpg",
+    "transport": {
+      "fromMumbai": {"flight": "INR 3,000", "train": "INR 1,500"},
+      "withinDestinations": [{"transport": "Scooter", "price": "INR 500"}]
+    },
+    "price": "INR 20,000",
+    "accommodation": [
+      {"hotel": "The Leela Goa", "nights": 3, "pricePerNight": "INR 12,000", "rating": 4.9},
+      {"hotel": "Taj Exotica", "nights": 2, "pricePerNight": "INR 9,000", "rating": 4.8}
+    ],
+    "meals": {
+      "day1": {"lunch": "Seafood", "dinner": "Beachside buffet"},
+      "day2": {"lunch": "Goan cuisine", "dinner": "Local restaurant"}
+    },
+    "activities": {
+      "day1": ["Beach activities", "Relaxing"],
+      "day2": ["Water sports", "Nightlife"]
+    }
+  },
+
+  {
+    "id": "31",
+    "name": "Kathmandu",
+    "description": "Kathmandu, Nepal's capital, is a city rich in culture and history. Explore ancient temples, markets, and nearby mountains.",
+    "imageUrl": "https://www.example.com/images/kathmandu.jpg",
+    "transport": {
+      "fromDelhi": {"flight": "NPR 6,000", "bus": "NPR 2,000"},
+      "withinDestinations": [{"transport": "Rickshaw", "price": "NPR 200"}]
+    },
+    "price": "NPR 25,000",
+    "accommodation": [
+      {"hotel": "Hotel Yak and Yeti", "nights": 3, "pricePerNight": "NPR 10,000", "rating": 4.7},
+      {"hotel": "Kathmandu Guest House", "nights": 2, "pricePerNight": "NPR 6,500", "rating": 4.6}
+    ],
+    "meals": {
+      "day1": {"lunch": "Momo", "dinner": "Traditional Nepalese dinner"},
+      "day2": {"lunch": "Tibetan cuisine", "dinner": "Nepalese buffet"}
+    },
+    "activities": {
+      "day1": ["Visit Pashupatinath", "Explore Durbar Square"],
+      "day2": ["Hike to Nagarkot", "Shopping"]
+    }
+  },
+  
+    {
+      "id": "13",
+      "name": "Sylhet",
+      "description": "Sylhet is a beautiful region with tea gardens, hills, and natural beauty. Explore waterfalls, temples, and serene landscapes.",
+      "imageUrl": "https://www.example.com/images/sylhet.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,200", "train": "BDT 700"},
+        "withinDestinations": [{"transport": "CNG", "price": "BDT 80"}]
       },
-      {"id":"2",
-        "name": "Sundarbans",
-        "description": "Explore the Sundarbans, the world's largest mangrove forest, famous for its biodiversity, including the Royal Bengal Tiger. Enjoy a wildlife safari and boat tours.",
-        "imageUrl": "https://www.example.com/images/sundarbans.jpg",
-        "transport": {
-          "fromDhaka": {"bus": "BDT 800"},
-          "fromKhulna": {"boat": "BDT 2,000"},
-          "withinDestinations": [{"transport": "Boat", "price": "BDT 500"}]
-        },
-        "price": "BDT 12,000",
-        "accommodation": [
-          {"hotel": "Tiger Garden Hotel", "nights": 1, "pricePerNight": "BDT 5,000", "rating": 4.2},
-          {"hotel": "Castle Salam", "nights": 1, "pricePerNight": "BDT 4,500", "rating": 4.0}
-        ],
-        "meals": {
-          "day1": {"lunch": "Packed lunch", "dinner": "Hotel buffet"},
-          "day2": {"lunch": "Local restaurant"}
-        },
-        "activities": {
-          "day1": ["Safari", "Wildlife"],
-          "day2": ["Bird watching", "Departure"]
-        }
+      "price": "BDT 12,000",
+      "accommodation": [
+        {"hotel": "Jaflong Resort", "nights": 2, "pricePerNight": "BDT 7,000", "rating": 4.6},
+        {"hotel": "Shanti Niketan Hotel", "nights": 1, "pricePerNight": "BDT 4,500", "rating": 4.5}
+      ],
+      "meals": {
+        "day1": {"lunch": "Bengali food", "dinner": "Traditional Bangladeshi meal"},
+        "day2": {"lunch": "Local snack", "dinner": "BBQ"}
       },
-      {"id":"3",
-        "name": "Saint Martin’s Island",
-        "description": "Saint Martin’s Island is a paradise for beach lovers. Snorkeling, scuba diving, and exploring the island’s beautiful beaches are top activities.",
-        "imageUrl": "https://www.example.com/images/saint-martins-island.jpg",
-        "transport": {
-          "fromDhaka": {"bus": "BDT 1,800"},
-          "fromCox’sBazar": {"ferry": "BDT 1,000"},
-          "withinDestinations": [{"transport": "Boat", "price": "BDT 500"}]
-        },
-        "price": "BDT 10,000",
-        "accommodation": [
-          {"hotel": "Blue Marine Resort", "nights": 1, "pricePerNight": "BDT 6,000", "rating": 4.5},
-          {"hotel": "Coral View Resort", "nights": 1, "pricePerNight": "BDT 4,500", "rating": 4.2}
-        ],
-        "meals": {
-          "day1": {"lunch": "Beachside", "dinner": "Seafood restaurant"},
-          "day2": {"lunch": "Local restaurant"}
-        },
-        "activities": {
-          "day1": ["Snorkeling", "Beach relaxation"],
-          "day2": ["Local exploration"]
-        }
-      },
-      {"id":"4",
-        "name": "Sajek Valley",
-        "description": "Sajek Valley offers a scenic getaway with beautiful hills, trekking paths, and tribal villages. Perfect for nature lovers and adventure seekers.",
-        "imageUrl": "https://www.example.com/images/sajek-valley.jpg",
-        "transport": {
-          "fromDhaka": {"bus": "BDT 1,800"},
-          "fromChittagong": {"bus": "BDT 1,000"},
-          "withinDestinations": [{"transport": "Jeep", "price": "BDT 2,000"}]
-        },
-        "price": "BDT 14,000",
-        "accommodation": [
-          {"hotel": "Sajek Resort", "nights": 2, "pricePerNight": "BDT 5,500", "rating": 4.6},
-          {"hotel": "Runmoy Resort", "nights": 1, "pricePerNight": "BDT 4,000", "rating": 4.3}
-        ],
-        "meals": {
-          "day1": {"lunch": "Local", "dinner": "Resort"},
-          "day2": {"lunch": "Picnic", "dinner": "Resort"},
-          "day3": {"lunch": "Local restaurant"}
-        },
-        "activities": {
-          "day1": ["Sightseeing"],
-          "day2": ["Trekking"],
-          "day3": ["Village tour"]
-        }
+      "activities": {
+        "day1": ["Waterfall visit", "Tea garden tour"],
+        "day2": ["Temple visit", "Shopping"]
       }
-    ]
+    },
+    {
+      "id": "14",
+      "name": "Bandarbans",
+      "description": "Bandarbans is a picturesque hill district with lush greenery and fascinating tribal culture. Explore waterfalls and mountain views.",
+      "imageUrl": "https://www.example.com/images/bandarban.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,500", "train": "BDT 600"},
+        "withinDestinations": [{"transport": "Jeep", "price": "BDT 400"}]
+      },
+      "price": "BDT 18,000",
+      "accommodation": [
+        {"hotel": "Nafa Resort", "nights": 2, "pricePerNight": "BDT 9,000", "rating": 4.8},
+        {"hotel": "Chimbuk Hill Resort", "nights": 1, "pricePerNight": "BDT 6,000", "rating": 4.7}
+      ],
+      "meals": {
+        "day1": {"lunch": "Local tribal food", "dinner": "Cultural buffet"},
+        "day2": {"lunch": "Mountain food", "dinner": "Grilled dishes"}
+      },
+      "activities": {
+        "day1": ["Trekking", "Visit to Chimbuk Hill"],
+        "day2": ["Cultural exploration", "Nature walk"]
+      }
+    },
+    {
+      "id": "15",
+      "name": "Rangamati",
+      "description": "Rangamati, located by Kaptai Lake, offers water activities, tribal culture, and stunning hilltop views.",
+      "imageUrl": "https://www.example.com/images/rangamati.jpg",
+      "transport": {
+        "fromChittagong": {"bus": "BDT 700", "boat": "BDT 1,000"},
+        "withinDestinations": [{"transport": "Boat", "price": "BDT 300"}]
+      },
+      "price": "BDT 14,000",
+      "accommodation": [
+        {"hotel": "Kaptai Lake Resort", "nights": 2, "pricePerNight": "BDT 8,000", "rating": 4.7},
+        {"hotel": "Rangamati Hill Resort", "nights": 1, "pricePerNight": "BDT 5,500", "rating": 4.6}
+      ],
+      "meals": {
+        "day1": {"lunch": "Fish curry", "dinner": "Barbecue"},
+        "day2": {"lunch": "Local Bengali dish", "dinner": "International buffet"}
+      },
+      "activities": {
+        "day1": ["Boat tour", "Fishing"],
+        "day2": ["Visit tribal villages", "Relaxing at lake"]
+      }
+    },
+    {
+      "id": "16",
+      "name": "Paharpur",
+      "description": "Paharpur is home to the ancient Buddhist monastery ruins and UNESCO World Heritage site. A historical and cultural destination.",
+      "imageUrl": "https://www.example.com/images/paharpur.jpg",
+      "transport": {
+        "fromRajshahi": {"bus": "BDT 500", "train": "BDT 300"},
+        "withinDestinations": [{"transport": "Rickshaw", "price": "BDT 50"}]
+      },
+      "price": "BDT 8,000",
+      "accommodation": [
+        {"hotel": "Paharpur Heritage Resort", "nights": 1, "pricePerNight": "BDT 3,500", "rating": 4.5}
+      ],
+      "meals": {
+        "day1": {"lunch": "Bengali lunch", "dinner": "Simple buffet"}
+      },
+      "activities": {
+        "day1": ["Visit ancient Buddhist ruins", "Explore local culture"]
+      }
+    },
+    {
+      "id": "17",
+      "name": "Mawna",
+      "description": "Mawna is known for its vibrant greenery, natural beauty, and rural atmosphere. A great place for nature lovers and a peaceful retreat.",
+      "imageUrl": "https://www.example.com/images/mawna.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 800", "car": "BDT 1,500"},
+        "withinDestinations": [{"transport": "CNG", "price": "BDT 100"}]
+      },
+      "price": "BDT 6,000",
+      "accommodation": [
+        {"hotel": "Mawna Hill Resort", "nights": 1, "pricePerNight": "BDT 4,000", "rating": 4.7}
+      ],
+      "meals": {
+        "day1": {"lunch": "Traditional meal", "dinner": "Grilled dishes"}
+      },
+      "activities": {
+        "day1": ["Nature walks", "Photography"]
+      }
+    },
+    {
+      "id": "18",
+      "name": "Kaptai Lake",
+      "description": "Kaptai Lake is a serene and picturesque location, perfect for boat rides, hiking, and enjoying nature's beauty.",
+      "imageUrl": "https://www.example.com/images/kaptai-lake.jpg",
+      "transport": {
+        "fromChittagong": {"bus": "BDT 900", "boat": "BDT 1,200"},
+        "withinDestinations": [{"transport": "Boat", "price": "BDT 500"}]
+      },
+      "price": "BDT 10,000",
+      "accommodation": [
+        {"hotel": "Kaptai Resort", "nights": 2, "pricePerNight": "BDT 5,500", "rating": 4.8}
+      ],
+      "meals": {
+        "day1": {"lunch": "Traditional Bengali food", "dinner": "Seafood"},
+        "day2": {"lunch": "Local cuisine", "dinner": "BBQ"}
+      },
+      "activities": {
+        "day1": ["Boat tour", "Fishing"],
+        "day2": ["Lake relaxation", "Trekking"]
+      }
+    },
+    {
+      "id": "19",
+      "name": "Jaflong",
+      "description": "Jaflong is known for its beautiful hills and stone collection, a perfect destination for nature lovers and adventure seekers.",
+      "imageUrl": "https://www.example.com/images/jaflong.jpg",
+      "transport": {
+        "fromSylhet": {"bus": "BDT 600"},
+        "withinDestinations": [{"transport": "Jeep", "price": "BDT 200"}]
+      },
+      "price": "BDT 8,500",
+      "accommodation": [
+        {"hotel": "Jaflong Hill Resort", "nights": 2, "pricePerNight": "BDT 4,500", "rating": 4.5}
+      ],
+      "meals": {
+        "day1": {"lunch": "Mountain snacks", "dinner": "Traditional food"},
+        "day2": {"lunch": "Local cuisine", "dinner": "BBQ dinner"}
+      },
+      "activities": {
+        "day1": ["Stone collecting", "Mountain hike"],
+        "day2": ["Visit Jaflong village", "Photography"]
+      }
+    },
+    {
+      "id": "20",
+      "name": "Khagrachari",
+      "description": "Khagrachari is a district in southeastern Bangladesh known for its diverse tribal cultures and beautiful hills.",
+      "imageUrl": "https://www.example.com/images/khagrachhari.jpg",
+      "transport": {
+        "fromChittagong": {"bus": "BDT 900"},
+        "withinDestinations": [{"transport": "CNG", "price": "BDT 150"}]
+      },
+      "price": "BDT 9,000",
+      "accommodation": [
+        {"hotel": "Khagrachhari Hill Resort", "nights": 2, "pricePerNight": "BDT 5,000", "rating": 4.6}
+      ],
+      "meals": {
+        "day1": {"lunch": "Tribal food", "dinner": "Local cuisine"},
+        "day2": {"lunch": "Traditional Bengali meal", "dinner": "Barbecue"}
+      },
+      "activities": {
+        "day1": ["Visit tribal villages", "Hiking"],
+        "day2": ["Cultural exploration", "Photography"]
+      }
+    }
+  ,
+  
+    {
+      "id": "23",
+      "name": "Skardu",
+      "description": "Skardu is a valley surrounded by towering mountains, lakes, and breathtaking views. Perfect for adventure lovers and nature enthusiasts.",
+      "imageUrl": "https://www.example.com/images/skardu.jpg",
+      "transport": {
+        "fromIslamabad": {"bus": "PKR 3,000", "flight": "PKR 12,000"},
+        "fromGilgit": {"bus": "PKR 2,500"},
+        "withinDestinations": [{"transport": "Jeep", "price": "PKR 500"}]
+      },
+      "price": "PKR 35,000",
+      "accommodation": [
+        {"hotel": "Shangrila Resort", "nights": 3, "pricePerNight": "PKR 15,000", "rating": 4.7},
+        {"hotel": "Skardu View Hotel", "nights": 2, "pricePerNight": "PKR 10,000", "rating": 4.6}
+      ],
+      "meals": {
+        "day1": {"lunch": "Local cuisine", "dinner": "Resort buffet"},
+        "day2": {"lunch": "Mountain food", "dinner": "BBQ dinner"},
+        "day3": {"lunch": "Traditional local dishes"}
+      },
+      "activities": {
+        "day1": ["Sightseeing", "Hiking"],
+        "day2": ["Visit Shangrila Resort", "Trekking"],
+        "day3": ["Lake tour", "Departure"]
+      }
+    },
+    {
+      "id": "24",
+      "name": "Hunza",
+      "description": "Hunza is a valley located in the Gilgit-Baltistan region of Pakistan, known for its stunning views and peaceful environment.",
+      "imageUrl": "https://www.example.com/images/hunza.jpg",
+      "transport": {
+        "fromGilgit": {"bus": "PKR 1,500"},
+        "withinDestinations": [{"transport": "Jeep", "price": "PKR 500"}]
+      },
+      "price": "PKR 25,000",
+      "accommodation": [
+        {"hotel": "Baltit Fort Inn", "nights": 3, "pricePerNight": "PKR 8,000", "rating": 4.7},
+        {"hotel": "Hunza View Resort", "nights": 2, "pricePerNight": "PKR 6,500", "rating": 4.6}
+      ],
+      "meals": {
+        "day1": {"lunch": "Local cuisine", "dinner": "Traditional meal"},
+        "day2": {"lunch": "Mountain food", "dinner": "BBQ dinner"},
+        "day3": {"lunch": "Traditional Hunza dishes"}
+      },
+      "activities": {
+        "day1": ["Explore Baltit Fort", "Sightseeing"],
+        "day2": ["Trekking", "Visit Altit Fort"],
+        "day3": ["Relaxing", "Photography"]
+      }
+    },
+    {
+      "id": "25",
+      "name": "Murree",
+      "description": "Murree is a famous hill station known for its cool climate, scenic beauty, and attractions such as Patriata chair lift and Mall Road.",
+      "imageUrl": "https://www.example.com/images/murree.jpg",
+      "transport": {
+        "fromIslamabad": {"bus": "PKR 500", "taxi": "PKR 2,000"},
+        "withinDestinations": [{"transport": "Rickshaw", "price": "PKR 100"}]
+      },
+      "price": "PKR 12,000",
+      "accommodation": [
+        {"hotel": "Pearl Continental Murree", "nights": 2, "pricePerNight": "PKR 8,000", "rating": 4.8},
+        {"hotel": "Murree Hills Hotel", "nights": 1, "pricePerNight": "PKR 5,000", "rating": 4.5}
+      ],
+      "meals": {
+        "day1": {"lunch": "Traditional food", "dinner": "Buffet"},
+        "day2": {"lunch": "Mountain snack", "dinner": "BBQ"}
+      },
+      "activities": {
+        "day1": ["Cable car ride", "Nature walk"],
+        "day2": ["Hiking", "Local sightseeing"]
+      }
+    },
+    {
+      "id": "26",
+      "name": "Lahore",
+      "description": "Lahore, the cultural capital of Pakistan, is known for its rich history, beautiful gardens, and iconic landmarks like Badshahi Mosque and Lahore Fort.",
+      "imageUrl": "https://www.example.com/images/lahore.jpg",
+      "transport": {
+        "fromIslamabad": {"bus": "PKR 1,000", "train": "PKR 800"},
+        "withinDestinations": [{"transport": "Rickshaw", "price": "PKR 150"}]
+      },
+      "price": "PKR 18,000",
+      "accommodation": [
+        {"hotel": "Pearl Continental Lahore", "nights": 3, "pricePerNight": "PKR 9,000", "rating": 4.7},
+        {"hotel": "Avari Lahore", "nights": 2, "pricePerNight": "PKR 7,500", "rating": 4.5}
+      ],
+      "meals": {
+        "day1": {"lunch": "Local cuisine", "dinner": "Buffet"},
+        "day2": {"lunch": "Traditional Pakistani food", "dinner": "International cuisine"}
+      },
+      "activities": {
+        "day1": ["Visit Badshahi Mosque", "Explore Lahore Fort"],
+        "day2": ["Shopping", "Visit Shalimar Gardens"]
+      }
+    },
+    {
+      "id": "27",
+      "name": "Islamabad",
+      "description": "Islamabad, the capital city of Pakistan, is known for its modern architecture, natural beauty, and landmarks like Faisal Mosque and Rawal Lake.",
+      "imageUrl": "https://www.example.com/images/islamabad.jpg",
+      "transport": {
+        "fromLahore": {"bus": "PKR 800", "flight": "PKR 3,000"},
+        "withinDestinations": [{"transport": "Taxi", "price": "PKR 200"}]
+      },
+      "price": "PKR 14,000",
+      "accommodation": [
+        {"hotel": "Serena Hotel", "nights": 2, "pricePerNight": "PKR 10,000", "rating": 4.8},
+        {"hotel": "Islamabad Marriott", "nights": 1, "pricePerNight": "PKR 6,500", "rating": 4.6}
+      ],
+      "meals": {
+        "day1": {"lunch": "Pakistani dishes", "dinner": "International buffet"},
+        "day2": {"lunch": "Local food", "dinner": "Fine dining"}
+      },
+      "activities": {
+        "day1": ["Visit Faisal Mosque", "Explore Rawal Lake"],
+        "day2": ["Shopping", "Visit Daman-e-Koh"]
+      }
+    }
   
   
+
+
+
+
+
+
+
+]

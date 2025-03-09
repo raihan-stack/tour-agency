@@ -1,8 +1,9 @@
+import { imgs } from "./img.js"
 
 
-export const showPopularDestination = ()=>{
+export const showPopularDestination = (stop)=>{
 
-
+ 
     const url = "../popularDestination.json"
 
 const destinatinDiv = document.querySelector(".popular-Destination")
@@ -11,12 +12,22 @@ const destinatinDiv = document.querySelector(".popular-Destination")
     poupularDestinantionFech
     .then((res)=>res.json())
     .then((data)=>{
+console.log(data)
 
+let sum =0
 
-
-        data.forEach(des => {
-           
-            const {name,description,imageUr,id ,transport,price,accommodation,meals,activities}=des
+        // data.some((des,indx,arr) =>
+          for(let des of data)    {
+          
+if(stop){
+  sum++
+          if(sum === 5){
+            console.log("hi")
+            return;
+          }
+}
+           let {name,description,imageUr,id ,transport,price,accommodation,meals,activities}=des
+            imageUr = imgs() 
 
 const div = document.createElement("div")
 div.innerHTML =`<div class="card bg-base-100 w-96 shadow-sm">
@@ -44,7 +55,7 @@ div.addEventListener("click",()=>{
 })
 destinatinDiv.append(div)
 
-        });
+        };
     })
    
 }

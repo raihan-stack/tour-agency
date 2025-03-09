@@ -1,0 +1,421 @@
+[
+    {
+      "id": "1",
+      "name": "Cox’s Bazar",
+      "description": "Cox’s Bazar is a stunning coastal city with miles of sandy beach. Enjoy the best of beach activities, like parasailing, jet skiing, and beach relaxation.",
+      "imageUrl": "https://www.example.com/images/saint-martins-island.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,500"},
+        "fromChittagong": {"bus": "BDT 500"},
+        "withinDestinations": [{"transport": "Tuk-Tuk", "price": "BDT 100"}]
+      },
+      "tourCost": "BDT 4,000",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+    {
+      "id": "2",
+      "name": "Sundarbans",
+      "description": "The world’s largest mangrove forest, located in southwestern Bangladesh, home to the famous Bengal tiger.",
+      "imageUrl": "https://www.example.com/images/sundarbans.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,800"},
+        "fromKhulna": {"boat": "BDT 2,000"},
+        "withinDestinations": [{"transport": "Boat Ride", "price": "BDT 500"}]
+      },
+      "tourCost": "BDT 6,000",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+    {
+      "id": "3",
+      "name": "Rangamati",
+      "description": "Rangamati is a hill district of Bangladesh known for its picturesque lakes, tribal culture, and natural beauty.",
+      "imageUrl": "https://www.example.com/images/rangamati.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,000"},
+        "fromChittagong": {"bus": "BDT 300"},
+        "withinDestinations": [{"transport": "Boat Ride", "price": "BDT 100"}]
+      },
+      "tourCost": "BDT 3,500",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+    {
+      "id": "4",
+      "name": "Sylhet",
+      "description": "Sylhet is known for its tea gardens, hills, and religious sites, offering a peaceful retreat in nature.",
+      "imageUrl": "https://www.example.com/images/sylhet.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 600"},
+        "withinDestinations": [{"transport": "Auto Rickshaw", "price": "BDT 50"}]
+      },
+      "tourCost": "BDT 2,500",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+    {
+      "id": "5",
+      "name": "Srimangal",
+      "description": "Known as the ‘Tea Capital’ of Bangladesh, Srimangal offers lush tea gardens, wildlife, and scenic views.",
+      "imageUrl": "https://www.example.com/images/srimangal.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,000"},
+        "fromSylhet": {"bus": "BDT 200"},
+        "withinDestinations": [{"transport": "Rickshaw", "price": "BDT 80"}]
+      },
+      "tourCost": "BDT 3,200",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+    {
+      "id": "6",
+      "name": "Bandarbans",
+      "description": "Bandarbans is a stunning hill district of Bangladesh, known for its forests, waterfalls, and indigenous cultures.",
+      "imageUrl": "https://www.example.com/images/bandarban.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,200"},
+        "fromChittagong": {"bus": "BDT 400"},
+        "withinDestinations": [{"transport": "Jeep", "price": "BDT 150"}]
+      },
+      "tourCost": "BDT 4,000",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+    {
+      "id": "7",
+      "name": "Khagrachari",
+      "description": "Known for its vibrant tribal culture, hills, and serene environment, Khagrachhari is a popular tourist destination.",
+      "imageUrl": "https://www.example.com/images/khagrachhari.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,000"},
+        "fromChittagong": {"bus": "BDT 250"},
+        "withinDestinations": [{"transport": "Auto Rickshaw", "price": "BDT 70"}]
+      },
+      "tourCost": "BDT 3,000",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+    {
+      "id": "8",
+      "name": "Patenga Beach",
+      "description": "Located near Chittagong, Patenga Beach is a beautiful spot for a relaxing day by the sea.",
+      "imageUrl": "https://www.example.com/images/patenga-beach.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,200"},
+        "fromChittagong": {"bus": "BDT 100"},
+        "withinDestinations": [{"transport": "Rickshaw", "price": "BDT 50"}]
+      },
+      "tourCost": "BDT 2,500",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+    {
+      "id": "9",
+      "name": "Kuakata Sea Beach",
+      "description": "Kuakata is famous for its stunning beach where one can watch both the sunrise and sunset.",
+      "imageUrl": "https://www.example.com/images/kuakata-sea-beach.jpg",
+      "transport": {
+        "fromDhaka": {"bus": "BDT 1,500"},
+        "fromBarisal": {"bus": "BDT 700"},
+        "withinDestinations": [{"transport": "Tuk-Tuk", "price": "BDT 50"}]
+      },
+      "tourCost": "BDT 4,500",
+      "pickupFromDhaka": true,
+      "tourType": "national"
+    },
+      
+      {
+        "id": "11",
+        "name": "Mahasthangarh",
+        "description": "Mahasthangarh is one of the oldest archaeological sites in Bangladesh, offering a glimpse into ancient Bengal's history.",
+        "imageUrl": "https://www.example.com/images/mahasthangarh.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 1,000"},
+          "fromBogura": {"bus": "BDT 200"},
+          "withinDestinations": [{"transport": "Rickshaw", "price": "BDT 40"}]
+        },
+        "tourCost": "BDT 3,000",
+        "pickupFromDhaka": true,
+        "tourType": "national"
+      },
+      {
+        "id": "12",
+        "name": "Cox’s Bazar - St. Martin's Island",
+        "description": "St. Martin's Island is a small tropical island off the coast of Cox’s Bazar, offering clear blue waters and peaceful surroundings.",
+        "imageUrl": "https://www.example.com/images/st-martins-island.jpg",
+        "transport": {
+          "fromCoxsBazar": {"boat": "BDT 2,000"},
+          "withinDestinations": [{"transport": "Boat Ride", "price": "BDT 100"}]
+        },
+        "tourCost": "BDT 5,500",
+        "pickupFromDhaka": true,
+        "tourType": "national"
+      },
+      {
+        "id": "13",
+        "name": "Bagerhat",
+        "description": "Bagerhat is a UNESCO World Heritage site known for its historic mosques and the famous Sixty Dome Mosque.",
+        "imageUrl": "https://www.example.com/images/bagerhat.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 800"},
+          "fromKhulna": {"bus": "BDT 500"},
+          "withinDestinations": [{"transport": "Auto Rickshaw", "price": "BDT 50"}]
+        },
+        "tourCost": "BDT 3,000",
+        "pickupFromDhaka": true,
+        "tourType": "national"
+      },
+      {
+        "id": "14",
+        "name": "Madhupur National Park",
+        "description": "Located in the central region of Bangladesh, Madhupur National Park is famous for its scenic beauty and rich biodiversity.",
+        "imageUrl": "https://www.example.com/images/madhupur-national-park.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 1,200"},
+          "withinDestinations": [{"transport": "Jeep", "price": "BDT 150"}]
+        },
+        "tourCost": "BDT 3,200",
+        "pickupFromDhaka": true,
+        "tourType": "national"
+      },
+      {
+        "id": "15",
+        "name": "Ponditpara",
+        "description": "Ponditpara is known for its breathtaking hilltop views and traditional tribal villages in the Chittagong Hill Tracts.",
+        "imageUrl": "https://www.example.com/images/ponditpara.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 1,000"},
+          "fromChittagong": {"bus": "BDT 300"},
+          "withinDestinations": [{"transport": "Motorbike", "price": "BDT 80"}]
+        },
+        "tourCost": "BDT 3,500",
+        "pickupFromDhaka": true,
+        "tourType": "national"
+      },
+      {
+        "id": "16",
+        "name": "Sonargaon",
+        "description": "The ancient capital of Bengal, Sonargaon offers a mix of historical ruins, museums, and traditional architecture.",
+        "imageUrl": "https://www.example.com/images/sonargaon.jpg",
+        "transport": {
+          "fromDhaka": {"bus": "BDT 500"},
+          "withinDestinations": [{"transport": "Auto Rickshaw", "price": "BDT 30"}]
+        },
+        "tourCost": "BDT 2,000",
+        "pickupFromDhaka": true,
+        "tourType": "national"
+      }
+      ,
+        {
+          "id": "17",
+          "name": "Lahore, Pakistan",
+          "description": "Lahore is the cultural capital of Pakistan, known for its historical landmarks like Badshahi Mosque, Lahore Fort, and vibrant bazaars.",
+          "imageUrl": "https://www.example.com/images/lahore.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 18,000"},
+            "withinDestinations": [{"transport": "Rickshaw", "price": "PKR 300"}]
+          },
+          "tourCost": "BDT 45,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "18",
+          "name": "Karachi, Pakistan",
+          "description": "Karachi is a major financial and cultural hub in Pakistan, known for its beaches, museums, and diverse cuisine.",
+          "imageUrl": "https://www.example.com/images/karachi.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 16,000"},
+            "withinDestinations": [{"transport": "Taxi", "price": "PKR 400"}]
+          },
+          "tourCost": "BDT 40,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "19",
+          "name": "Islamabad, Pakistan",
+          "description": "Islamabad is the capital of Pakistan, known for its green spaces, modern architecture, and scenic surroundings.",
+          "imageUrl": "https://www.example.com/images/islamabad.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 14,000"},
+            "withinDestinations": [{"transport": "Taxi", "price": "PKR 500"}]
+          },
+          "tourCost": "BDT 35,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "20",
+          "name": "Murree, Pakistan",
+          "description": "Murree is a hill station near Islamabad, famous for its scenic mountain views, pine forests, and pleasant weather.",
+          "imageUrl": "https://www.example.com/images/murree.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 16,500"},
+            "withinDestinations": [{"transport": "Jeep", "price": "PKR 600"}]
+          },
+          "tourCost": "BDT 38,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "21",
+          "name": "Naran, Pakistan",
+          "description": "Naran is a beautiful hill station in northern Pakistan, known for its picturesque lakes, valleys, and trekking trails.",
+          "imageUrl": "https://www.example.com/images/naran.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 17,000"},
+            "withinDestinations": [{"transport": "Jeep", "price": "PKR 500"}]
+          },
+          "tourCost": "BDT 42,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+      
+        {
+          "id": "22",
+          "name": "Agra, India",
+          "description": "Agra is home to the iconic Taj Mahal, one of the seven wonders of the world, and other historical monuments.",
+          "imageUrl": "https://www.example.com/images/agra.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 13,000"},
+            "withinDestinations": [{"transport": "Tuk-Tuk", "price": "INR 200"}]
+          },
+          "tourCost": "BDT 30,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "23",
+          "name": "New Delhi, India",
+          "description": "New Delhi is the capital of India, with a rich history, vibrant culture, and landmarks like the Red Fort and Qutub Minar.",
+          "imageUrl": "https://www.example.com/images/new-delhi.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 14,500"},
+            "withinDestinations": [{"transport": "Auto Rickshaw", "price": "INR 150"}]
+          },
+          "tourCost": "BDT 32,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "24",
+          "name": "Jaipur, India",
+          "description": "Jaipur, also known as the Pink City, is famous for its palaces, forts, and vibrant culture.",
+          "imageUrl": "https://www.example.com/images/jaipur.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 16,000"},
+            "withinDestinations": [{"transport": "Taxi", "price": "INR 300"}]
+          },
+          "tourCost": "BDT 35,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "25",
+          "name": "Varanasi, India",
+          "description": "Varanasi is a sacred city on the banks of the Ganges, known for its ghats, temples, and spiritual significance.",
+          "imageUrl": "https://www.example.com/images/varanasi.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 15,000"},
+            "withinDestinations": [{"transport": "Rickshaw", "price": "INR 100"}]
+          },
+          "tourCost": "BDT 33,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "26",
+          "name": "Rishikesh, India",
+          "description": "Rishikesh is known as the Yoga capital of the world, offering a tranquil environment and spiritual experiences.",
+          "imageUrl": "https://www.example.com/images/rishikesh.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 14,000"},
+            "withinDestinations": [{"transport": "Local Bus", "price": "INR 80"}]
+          },
+          "tourCost": "BDT 31,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+      
+        {
+          "id": "27",
+          "name": "Kathmandu, Nepal",
+          "description": "Kathmandu, the capital of Nepal, is known for its historic temples, vibrant streets, and the gateway to the Himalayas.",
+          "imageUrl": "https://www.example.com/images/kathmandu.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 10,000"},
+            "withinDestinations": [{"transport": "Taxi", "price": "NPR 300"}]
+          },
+          "tourCost": "BDT 28,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "28",
+          "name": "Pokhara, Nepal",
+          "description": "Pokhara is known for its stunning lakes, scenic mountain views, and adventure activities like trekking and paragliding.",
+          "imageUrl": "https://www.example.com/images/pokhara.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 12,000"},
+            "withinDestinations": [{"transport": "Motorbike", "price": "NPR 400"}]
+          },
+          "tourCost": "BDT 30,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "29",
+          "name": "Lumbini, Nepal",
+          "description": "Lumbini is the birthplace of Lord Buddha, a peaceful and spiritual place attracting visitors from around the world.",
+          "imageUrl": "https://www.example.com/images/lumbini.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 13,000"},
+            "withinDestinations": [{"transport": "Rickshaw", "price": "NPR 150"}]
+          },
+          "tourCost": "BDT 32,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "30",
+          "name": "Chitwan National Park, Nepal",
+          "description": "Chitwan National Park is known for its rich wildlife, including rhinos, tigers, and elephants, as well as safaris and jungle activities.",
+          "imageUrl": "https://www.example.com/images/chitwan.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 11,000"},
+            "withinDestinations": [{"transport": "Jeep", "price": "NPR 500"}]
+          },
+          "tourCost": "BDT 29,000",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        },
+        {
+          "id": "31",
+          "name": "Nagarkot, Nepal",
+          "description": "Nagarkot offers panoramic views of the Himalayan peaks, a perfect destination for nature lovers and trekkers.",
+          "imageUrl": "https://www.example.com/images/nagarkot.jpg",
+          "transport": {
+            "fromDhaka": {"flight": "BDT 11,500"},
+            "withinDestinations": [{"transport": "Local Bus", "price": "NPR 250"}]
+          },
+          "tourCost": "BDT 30,500",
+          "pickupFromDhaka": true,
+          "tourType": "international"
+        }
+      
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ]
+  
