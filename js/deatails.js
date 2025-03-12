@@ -139,8 +139,8 @@ Tour-place:${name}
 </h2>
 <p>pa${description}</p>
 <div class="card-actions justify-end">
-<div class="badge badge-outline">Deatils</div>
-<div class="badge badge-outline">Book now</div>
+<div class="badge badge-outline deateils">Deatils</div>
+<div class="badge badge-outline book">Book now</div>
 </div>
 </div>
 
@@ -152,9 +152,18 @@ Tour-place:${name}
 
 </div>`
 
-div.addEventListener("click",()=>{
+
+div.addEventListener("click",(e)=>{
+
+  if(e.target.classList.contains("book")){
+    location.href="book.html"
+    console.log("hello")
+  } else if (e.target.classList.contains("deateils")){
+    location.href="deatils.html"
+    console.log("hi")
+  }
 localStorage.setItem("deatils",JSON.stringify({id}) )
-location.href="deatils.html"
+
 })
 div.append(div2,div4,div5)
 
