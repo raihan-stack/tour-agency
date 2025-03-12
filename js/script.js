@@ -4,7 +4,7 @@ import { showPopularDestination } from "./showPopularDestnation.js";
 
 showPopularDestination("stop") 
 
-commited()
+// commited()
 // const initMap =()=>{
 //     let location = {lat:23.685 ,lng:90.3563}
 //     let map = new google.maps.Map(document.querySelector("#map"),{

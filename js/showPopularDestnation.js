@@ -40,7 +40,7 @@ body.append(bb)
       .then((data)=>{
   // console.log(data)
    if(data){
-    console.log("how are you")
+    // console.log("how are you")
    }
   
   const filer = data.filter((fil5,i)=> i<=3)
@@ -86,9 +86,26 @@ body.append(bb)
     </div>
   <div class="inpt hidden">
         <input class="input" type="" name="" id="">
+        
+
+        <input class="input block w-14 ratings" placeholder ="rating"  type="number" name="" id="">
         <button class="ad btn">submit</button>
+        <div class="rating">
+
+      
+         <input type="radio" name="rating-2" width="" class="mask mask-star-2 " aria-label="1 star" />
+     
+     
+      <input   type="radio" name="rating-2" class="mask mask-star-2  " aria-label="2 star" checked="" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 " aria-label="3 star" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 " aria-label="4 star" />
+      <input type="radio" name="rating-2" class="mask mask-star-2 " aria-label="5 star" />
+    </div>
      </div>
+       <div>
        <div class="commit flex flex-col"></div>
+       <div class="rating"></div>
+       </div>
   
   </div>`
   
@@ -97,7 +114,7 @@ body.append(bb)
     
     // console.log(name,sum)
     commited(e,div,indx)
-    console.log(indx)
+    // console.log(indx)
   
     
   }
