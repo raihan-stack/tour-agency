@@ -126,7 +126,7 @@ const {}=accommodation
 
 
 const div = document.createElement("div")
-div.innerHTML =`<div class="card bg-base-100 w-8/10 shadow-sm">
+div.innerHTML =`<div class="card bg-base-100 w-96 shadow-sm">
 <figure>
 <img
 src="${imageUr}"
