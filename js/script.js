@@ -2,7 +2,7 @@
 import { commited } from "./committ.js";
 import { showPopularDestination } from "./showPopularDestnation.js";
 
-showPopularDestination("stop") 
+showPopularDestination("stop" ,"serch") 
 
 // commited()
 // const initMap =()=>{
