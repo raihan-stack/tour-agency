@@ -4,16 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-
+    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="flex ">
-    <main></main>
-    
+<body>
 
-<form class="max-w-sm mx-auto">
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body class="flex m-20  ">
+        
+
+       
+
+<template id="main">
+    <main style="width: 50%;" class="main flex flex-col items-center bg-purple-200">
+
+        <div class="imge container tour_image flex justify-center">
+            <img class="w-4/6 rounded-lg mt-5 img  h-80  " src="" alt="">
+
+        </div>
+        <h1 class="id text-2xl font-bold">id: 1</h1>
+        <p class="name text-2xl  font-bold">Tour_name: Cox,s Bazar</p>
+
+        <p class="discription text-2xl  font-medium">Tour_disCription:</p>
+       
+       
+       
+        <div class="tranasport grid grid-cols-2 gap-8 p-5">
+           
+           
+            <div class="withinDestinations">
+                <div class="transportArray">
+                    <p class="font-medium"></p>
+                </div>
+            </div>
+        </div>
+      <p class="price"></p>
+      <h1 class="accommodation_heading text-center text-5xl m-8 ">Hotels</h1>
+        <div class="accommodation flex items-center gap-6 p-5  h-56">
+
+           
+           
+        </div>
+        <h1 class="meals_heading text-center m-8  text-4xl">meals</h1>
+        <div class="meals   grid grid-cols-2 items-center gap-8 ">
+         
+        </div>
+        <h1 class="activites_heading text-center text-4xl m-8 ">activites</h1>
+        <div class="activites grid grid-cols-2 gap-8  rounded-lg">
+          
+          
+        </div>
+
+        <div class="btns"></div>
+    </main>
+
+    <section style="width: 50%;" class="from mt-36">
+      <form class="max-w-sm mx-auto"> 
+        <div class="mb-5">
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+          <input type="email" id="email" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="name@flowbite.com" required />
+        </div>
+        <div class="mb-5">
+          <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your password</label>
+          <input type="password" id="password" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" required />
+        </div>
+        <div class="mb-5">
+          <label for="repeat-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Repeat password</label>
+          <input type="password" id="repeat-password" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" required />
+        </div>
+        <div class="flex items-start mb-5">
+          <div class="flex items-center h-5">
+            <input id="terms" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+          </div>
+          <label for="terms" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" class="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a></label>
+        </div>
+      <button class="btn">ConfromBook</button>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script></button>
+      </form>
+    </section>
+</template>
+
+
+        <template id="hotel">
+            <div class="hotel p-7  rounded-md mt-9  bg-cyan-100 ">
+                <p class="hotelName font-medium"></p>
+                <p class="hotelcost font-medium"></p>
+                <p class="nights font-medium"></p>
+                <p class="rating font-medium"></p>
+            </div>
+        </template>
+        <template id="meals">
+            <div class="day1 p-7 w-60 bg-slate-100  rounded-lg ">
+                <p class="lunch font-medium"></p>
+                <p class="dinner font-medium"></p>
+            </div>
+        </template>
+        <template id="activites">
+            <div class="activites-day1 p-7  bg-base-100 opacity-70 rounded-lg">
+                <p class="font-medium activity"></p>
+            </div>
+        </template>
+        <template id="tranasport">
+            <div class="from1 rounded-lg p-5  bg-red-100 ">
+                <p class="font-medium  from frm"> FromDhaKa : bus</p>
+            </div>
+        </template>
+        <template id="btns">
+            <button class="btn m-6 btn-gust book">Book Now</button>
+            <button class="btn comment m-6">Comment Here</button>
+        </template>
+        <script type="module" src="./js/exp.js"></script>
+    </body>
+    </html>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form class="max-w-sm mx-auto"> 
     <div class="mb-5">
       <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
       <input type="email" id="email" class="shadow-xs bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-xs-light" placeholder="name@flowbite.com" required />
@@ -34,10 +169,4 @@
     </div>
   <button class="btn">ConfromBook</button>
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script></button>
-  </form>
-  
-    <h1>this is booking</h1>
-
-    <script type="module", src="js/deatails.js"></script>
-</body>
-</html>
+  </form>  -->

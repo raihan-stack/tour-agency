@@ -1,3 +1,3 @@
 import { showPopularDestination } from "./showPopularDestnation.js";
 
-showPopularDestination()
+showPopularDestination("", ""," destination")
