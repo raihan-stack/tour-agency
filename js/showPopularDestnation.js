@@ -329,7 +329,7 @@ destinatinDiv.append(div)
   
           })
           
-          if(location.href ==="destination.html"){
+          if(destination){
 
             let div = document.createElement("div")
           const btns = document.querySelector("#btns")
@@ -359,10 +359,9 @@ if(sumDe >= data.length){
  p2.innerText =` for click back Button ${times}times`
 let bb = document.createElement("bb")
 bb.append(p,p2)
+console.log(sum, sumDe)
 document.querySelector('body').append(bb)
-  }
-
-else {
+  }else {
   sum = sum +5
 
   sumDe = sumDe+5
@@ -386,6 +385,8 @@ console.log("hi")
               }else{
                 sum =sum- 5 
                  sumDe = sumDe -5
+                 console.log("hi")
+                 console.log(sum, sumDe)
               }
              
             
