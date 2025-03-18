@@ -10,7 +10,7 @@ let getData = localStorage.getItem("userData")||[]
 if(login){
     let filter = getData.filter((user)=>user.email === data.email && user.password ===data.password)
     if(filter.length >=1){
-        localStorage.setItem("signUp",JSON.stringify({signUP:"login"}))
+        localStorage.setItem("signUp",JSON.stringify({signUP:true}))
         console.log("hi")
         location.href ="index.html"
         return false
